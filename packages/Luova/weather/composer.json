@@ -1,0 +1,19 @@
+{
+    "name": "luova/weather",
+    "description": "This will create weather to admin and save weather guery in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Hasan",
+            "email": "hm91hassan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Luova\\Weather\\": "src/"
+        }
+    }
+}

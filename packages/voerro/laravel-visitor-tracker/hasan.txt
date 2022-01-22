@@ -1,0 +1,37 @@
+
+
+Step One 
+=================
+Copy package file and paste into package folder
+
+Step Tow
+=================
+Add Composer.json
+
+"Voerro\\Laravel\\VisitorTracker\\": "packages/voerro/laravel-visitor-tracker/src",
+
+"autoload-dev": {
+	"psr-4": {
+	    "Tests\\": "tests/",
+	    "Voerro\\Laravel\\VisitorTracker\\": "packages/voerro/laravel-visitor-tracker/src",
+	}
+},
+
+composer dump-autoload
+
+STEP There
+=================
+
+requeri pkg 
+=====
+composer require intervention/image
+composer require arrilot/laravel-widgets
+composer require larapack/voyager-hooks
+composer require larapack/doctrine-support
+composer remove larapack/doctrine-support
+
+
+composer require matomo/device-detector
+composer require guzzlehttp/guzzle:~6.0
+
+ "tcg/voyager": "^1.3"

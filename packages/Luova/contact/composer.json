@@ -1,0 +1,19 @@
+{
+    "name": "luova/contact",
+    "description": "This will create contact to admin and save contact guery in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Hasan",
+            "email": "hm91hassan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Luova\\Contact\\": "src/"
+        }
+    }
+}

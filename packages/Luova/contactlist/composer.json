@@ -1,0 +1,19 @@
+{
+    "name": "luova/contactlist",
+    "description": "This will create contactlist to admin and save contactlist guery in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Hasan",
+            "email": "hm91hassan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Luova\\Contactlist\\": "src/"
+        }
+    }
+}

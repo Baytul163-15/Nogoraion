@@ -1,0 +1,19 @@
+{
+    "name": "luova/bitpolice",
+    "description": "This will create bit police to admin and save bit police guery in database",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohammad Hasan",
+            "email": "hm91hassan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Luova\\Bitpolice\\": "src/"
+        }
+    }
+}
